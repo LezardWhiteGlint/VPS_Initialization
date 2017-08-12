@@ -23,6 +23,17 @@ python3.6 -V
 yum -y install python36u-pip
 yum -y install python36u-devel
 
+# set up virtual enviroment
+mkdir environments
+cd environments
+python3.6 -m venv my_env
+source my_env/bin/activate
+
+# xvfb for headless server 
+yum install xorg-x11-server-Xvfb
+
+# install firefox
+yum install firefoxfir
 
 # install python3 module
 pip3.6 install openpyxl selenium
