@@ -1,1 +1,2 @@
-# VPS_Initialization
+# change root password
+passwd root
