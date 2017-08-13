@@ -27,6 +27,8 @@ yum -y install python36u-devel
 mkdir environments
 cd environments
 python3.6 -m venv my_env
+
+# load virtual enviroment
 source my_env/bin/activate
 
 # xvfb for headless server 
