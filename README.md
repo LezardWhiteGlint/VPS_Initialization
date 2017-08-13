@@ -37,5 +37,10 @@ yum install xorg-x11-server-Xvfb
 # install firefox
 yum install firefoxfir
 
+# install geckodriver
+wget https://github.com/mozilla/geckodriver/releases/download/v0.18.0/geckodriver-v0.18.0-linux64.tar.gz
+tar -xvzf geckodriver-v0.18.0-linux64.tar.gz 
+chmod +x geckodriver
+
 # install python3 module
-pip3.6 install openpyxl selenium
+pip3.6 install openpyxl selenium pyvirtualdisplay
