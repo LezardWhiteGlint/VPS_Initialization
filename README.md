@@ -44,3 +44,6 @@ chmod +x geckodriver
 
 # install python3 module
 pip3.6 install openpyxl selenium pyvirtualdisplay
+
+# google drive API install
+pip install --upgrade google-api-python-client
