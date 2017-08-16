@@ -43,7 +43,7 @@ tar -xvzf geckodriver-v0.18.0-linux64.tar.gz
 chmod +x geckodriver
 
 # install python3 module
-pip3.6 install openpyxl selenium pyvirtualdisplay
+pip3.6 install openpyxl selenium pyvirtualdisplay arrow
 
 # google drive API install
 pip install --upgrade google-api-python-client
