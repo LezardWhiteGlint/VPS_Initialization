@@ -1,0 +1,15 @@
+from pymongo import MongoClient
+    client = MongoClient()
+    DB = client.Mobile_revenue
+    Collection = DB.revenue_test_1
+    
+    
+  post = { 'rank' : int(rank.text),
+                     'game' : game.text,
+                     'revenue' : float(revenue.text),
+                     'paid_player' : int(paid_player.text),
+                     'paid_count' : int(paid_count.text),
+                     'arppu' : float(arppu.text),
+                     'date' : date.isoformat() }
+                     
+                     Collection.insert_one(post)
